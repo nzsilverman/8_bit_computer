@@ -447,6 +447,14 @@
     [
       "2b1e6d59-b5a1-4cb0-9534-b2be7027a28c",
       "Astable Timer"
+    ],
+    [
+      "fef5b5cb-04ba-4cd2-af61-03975cab5172",
+      "Monostable Timer"
+    ],
+    [
+      "574038bf-e5a4-4395-a0a6-883cc4308fec",
+      "Bistable Timer"
     ]
   ],
   "text_variables": {}
