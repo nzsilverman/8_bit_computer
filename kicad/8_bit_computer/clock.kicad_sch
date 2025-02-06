@@ -3275,6 +3275,12 @@
 		(uuid "16731d8b-856d-43c0-bb5f-10dbd832b936")
 	)
 	(junction
+		(at 195.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17bb24af-5f69-48eb-acd5-146fdba0c9d7")
+	)
+	(junction
 		(at 29.21 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3456,6 +3462,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 96.52) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29583990-13b6-418a-b721-34ba524f23af")
+	)
+	(wire
+		(pts
 			(xy 231.14 97.79) (xy 241.3 97.79)
 		)
 		(stroke
@@ -3526,6 +3542,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 69.85) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8cdb92-a8ee-4a9b-80a6-80bf17d80824")
+	)
+	(wire
+		(pts
 			(xy 231.14 72.39) (xy 241.3 72.39)
 		)
 		(stroke
@@ -3533,6 +3559,16 @@
 			(type default)
 		)
 		(uuid "4ea72e4f-e94a-42bb-af27-2291915d977b")
+	)
+	(wire
+		(pts
+			(xy 195.58 107.95) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d90900-ef65-4ef3-995b-a0fdfeac769c")
 	)
 	(wire
 		(pts
@@ -3563,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "5c88e6ba-b0f7-45aa-9f3f-795fa6d1023d")
+	)
+	(wire
+		(pts
+			(xy 195.58 69.85) (xy 203.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653a179d-e006-4d41-8c4e-74b1c7950e9b")
 	)
 	(wire
 		(pts
@@ -3626,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 69.85) (xy 182.88 69.85)
+			(xy 179.07 69.85) (xy 195.58 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +4064,7 @@
 	)
 	(global_label "~{CLK}"
 		(shape output)
-		(at 182.88 69.85 0)
+		(at 203.2 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4028,7 +4074,7 @@
 		)
 		(uuid "6184e6fc-6eb3-4d3a-ad16-dc919ac1f86d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.4333 69.85 0)
+			(at 209.7533 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,6 +4808,186 @@
 				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef"
 					(reference "U6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 195.58 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44835f56-e85f-4bf8-8123-b2a37d51b96d")
+		(property "Reference" "D5"
+			(at 190.5 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED Yellow"
+			(at 182.88 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503YD.pdf"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey PN" "754-1872-ND"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "WP1503YD"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/kingbright/WP1503YD/3084106"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.22"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3772c0ce-e8dd-472e-8d87-0da5fd40858b")
+		)
+		(pin "1"
+			(uuid "bd988e1f-0837-4b01-a08b-a516659a2ff5")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45127900-0499-44dc-8698-6e88ec3b0488")
+		(property "Reference" "#PWR049"
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a4d15eb-2c44-401f-a750-7437449c3f65")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef"
+					(reference "#PWR049")
+					(unit 1)
 				)
 			)
 		)
@@ -5951,6 +6177,120 @@
 				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef"
 					(reference "U5")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0653aef-9f4f-41ac-bf39-939318bcc9cc")
+		(property "Reference" "R11"
+			(at 198.12 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 195.58 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 193.802 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey PN" "MFR-25FBF52-220R-ND"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MFR-25FBF52-220R"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-220R/9138097"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.10"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c45a6f3-b8ab-4b91-87f5-28d3a00b9780")
+		)
+		(pin "1"
+			(uuid "8570ed75-1e43-4bb3-bd17-6ae50d9fde9b")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef"
+					(reference "R11")
+					(unit 1)
 				)
 			)
 		)
