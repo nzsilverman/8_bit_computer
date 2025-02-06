@@ -1340,7 +1340,6 @@
 	(hierarchical_label "MONOSTABLE_OUTPUT"
 		(shape output)
 		(at 170.18 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1637,6 +1636,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36bcf944-91c8-4e3a-a347-d6a10a99c119")
 		)
@@ -1734,6 +1742,15 @@
 			)
 		)
 		(property "Price" "0.36"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
 			(at 115.57 72.39 0)
 			(effects
 				(font
@@ -1863,6 +1880,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 215.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "443e52b8-ab88-46d1-a5ed-593172b81d7e")
 		)
@@ -1968,6 +1994,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "803e899d-50bf-4176-930d-c7df00f44596")
 		)
@@ -2063,6 +2098,15 @@
 			)
 		)
 		(property "Price" "0.2"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -2242,6 +2286,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af73822d-fde9-4e7d-b99d-eacf7249c234")
 		)
@@ -2406,6 +2459,15 @@
 			)
 		)
 		(property "Price" "0.16"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -2849,6 +2911,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3132e3a-2854-4c4b-ac73-dad1158d80d9")
 		)
@@ -3012,6 +3083,15 @@
 			)
 		)
 		(property "Price" "0.1"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
 			(at 71.12 60.96 0)
 			(effects
 				(font

@@ -492,6 +492,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey PN" ""
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eecbbb30-4644-4559-ad03-c9e7d608c28e")
 		)
