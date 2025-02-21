@@ -473,6 +473,10 @@
     [
       "574038bf-e5a4-4395-a0a6-883cc4308fec",
       "Bistable Timer"
+    ],
+    [
+      "b406bff0-30cd-4be2-be24-711f4e2b37e9",
+      "Register"
     ]
   ],
   "text_variables": {}
