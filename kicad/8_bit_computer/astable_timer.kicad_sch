@@ -1417,16 +1417,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d663e28-e003-48e6-a9b0-8d9038355c1c")
-	)
-	(wire
-		(pts
 			(xy 135.89 116.84) (xy 135.89 119.38)
 		)
 		(stroke
@@ -1447,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 92.71 74.93)
+			(xy 63.5 74.93) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 116.84) (xy 118.11 116.84)
+			(xy 63.5 116.84) (xy 118.11 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1577,6 +1567,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d4ebc9-6590-4118-b937-78e0be3ebd86")
+	)
+	(wire
+		(pts
 			(xy 105.41 57.15) (xy 105.41 63.5)
 		)
 		(stroke
@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 71.12 116.84)
+			(xy 63.5 74.93) (xy 63.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 82.55 80.01)
+			(xy 92.71 80.01) (xy 74.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1687,7 +1687,27 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 92.71) (xy 82.55 95.25)
+			(xy 91.44 85.09) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db949431-0412-4934-9450-49a42c9c862d")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 82.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4571c34-3e26-4be8-8bc1-e7af0e64f2e3")
+	)
+	(wire
+		(pts
+			(xy 74.93 92.71) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1697,7 +1717,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 82.55 85.09)
+			(xy 74.93 80.01) (xy 74.93 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1734,6 +1754,25 @@
 			(type default)
 		)
 		(uuid "fc40e286-0800-4158-aaee-d157d81f7fd9")
+	)
+	(text_box "TODO! Add 10k resistor to pin on breadboard"
+		(exclude_from_sim no)
+		(at 40.64 76.2 0)
+		(size 17.78 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2f3e0533-04d7-4a07-8b06-93852f570bfe")
 	)
 	(hierarchical_label "ASTABLE_OUTPUT"
 		(shape output)
@@ -1814,7 +1853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 95.25 0)
+		(at 74.93 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1823,7 +1862,7 @@
 		(fields_autoplaced yes)
 		(uuid "064f89ff-1e8c-4909-bb68-f1c8f3bd9c1e")
 		(property "Reference" "#PWR011"
-			(at 82.55 101.6 0)
+			(at 74.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 100.33 0)
+			(at 74.93 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 95.25 0)
+			(at 74.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 95.25 0)
+			(at 74.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 95.25 0)
+			(at 74.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2996,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 90.17 85.09 0)
+		(at 82.55 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2965,7 +3004,7 @@
 		(dnp no)
 		(uuid "9728d98f-38b1-42c3-bfc6-2e40f8feb754")
 		(property "Reference" "#PWR013"
-			(at 90.17 88.9 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3013,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.122 83.82 0)
+			(at 79.502 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +3021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 85.09 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 85.09 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 85.09 0)
+			(at 82.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3175,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 88.9 0)
+		(at 74.93 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3144,7 +3183,7 @@
 		(dnp no)
 		(uuid "9f0098e2-c72c-4737-bbcd-584d37017e14")
 		(property "Reference" "C1"
-			(at 73.152 87.63 0)
+			(at 65.532 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3192,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 73.152 90.17 0)
+			(at 65.532 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3201,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 83.5152 92.71 0)
+			(at 75.8952 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3210,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3219,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor."
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3228,7 @@
 			)
 		)
 		(property "Manufacturer PN" "K103M15X7RF53L2"
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3237,7 @@
 			)
 		)
 		(property "Digkey PN" " BC5136-ND"
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3246,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K103M15X7RF53L2/2820467"
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3255,7 @@
 			)
 		)
 		(property "Price" "0.16"
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3264,7 @@
 			)
 		)
 		(property "DigiKey PN" ""
-			(at 82.55 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,6 +3348,120 @@
 			(project ""
 				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef/2b1e6d59-b5a1-4cb0-9534-b2be7027a28c"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf54fd6a-cd33-4905-adae-c772daf26dca")
+		(property "Reference" "R31"
+			(at 88.9 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 89.408 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 87.63 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey PN" "13-MFR-25FRF52-10KCT-ND "
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MFR-25FRF52-10K"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-10K/14626"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.10"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac57ffc8-fc6f-4f3b-995b-e2db3bda20ca")
+		)
+		(pin "1"
+			(uuid "1fd92d3c-0f7d-453d-9004-d710d2333916")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/62eb35ce-6b42-428c-8bc5-4f1b242b0bef/2b1e6d59-b5a1-4cb0-9534-b2be7027a28c"
+					(reference "R31")
 					(unit 1)
 				)
 			)

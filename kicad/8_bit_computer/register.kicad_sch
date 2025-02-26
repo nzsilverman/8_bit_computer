@@ -1725,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 24.13) (xy 143.51 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0141a034-5dc1-4daa-9a46-64f8c3d4d089")
+	)
+	(wire
+		(pts
 			(xy 69.85 104.14) (xy 69.85 107.95)
 		)
 		(stroke
@@ -1905,16 +1915,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 76.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c1e447d-f5c4-4c2a-8370-ebd02f36e791")
-	)
-	(wire
-		(pts
 			(xy 127 30.48) (xy 127 35.56)
 		)
 		(stroke
@@ -1922,6 +1922,16 @@
 			(type default)
 		)
 		(uuid "2cad7296-84bd-422d-8d5a-f0ca9765edcc")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbe1460-dce3-48a9-b319-47dcb4c68530")
 	)
 	(wire
 		(pts
@@ -2022,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "39f5a3c4-d3f8-4be6-b68b-3ff097be37df")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0349dc-2c76-46fc-a929-968ba4d814cd")
 	)
 	(wire
 		(pts
@@ -2415,13 +2435,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 78.74 67.31)
+			(xy 78.74 60.96) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d63ab53-3f1b-46a9-8b68-b3deabaaa30b")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 81.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dff75c3-e5cd-475b-912b-df95fc40a4ee")
 	)
 	(wire
 		(pts
@@ -2475,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 30.48) (xy 222.25 35.56)
+			(xy 222.25 33.02) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2512,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "badd8085-7aec-47c7-b86e-a448a1a32717")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6ded1e-f745-4832-b1e2-df38456f8054")
 	)
 	(wire
 		(pts
@@ -2615,6 +2655,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 24.13) (xy 222.25 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4be6abe-d185-4efa-a873-38a13d2006b7")
+	)
+	(wire
+		(pts
 			(xy 143.51 35.56) (xy 144.78 35.56)
 		)
 		(stroke
@@ -2655,7 +2705,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 30.48) (xy 143.51 35.56)
+			(xy 143.51 34.29) (xy 143.51 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3077,7 +3127,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 222.25 30.48 90)
+		(at 222.25 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3087,7 +3137,7 @@
 		)
 		(uuid "99f9544a-dc8d-436c-aba7-219f8dd43a1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 23.6243 90)
+			(at 222.25 17.2743 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3149,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 143.51 30.48 90)
+		(at 143.51 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3109,7 +3159,7 @@
 		)
 		(uuid "c1cb7ece-5914-46ca-809e-642f969eb5c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 23.6243 90)
+			(at 143.51 17.2743 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3468,7 @@
 	)
 	(hierarchical_label "~{ENABLE}"
 		(shape input)
-		(at 78.74 67.31 270)
+		(at 81.28 74.93 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,6 +3755,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24a107c9-2115-4da9-8d72-10bd807214b0")
+		(property "Reference" "R34"
+			(at 73.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 76.2 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 77.978 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey PN" "13-MFR-25FRF52-10KCT-ND "
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MFR-25FRF52-10K"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-10K/14626"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.10"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be84b61c-17b6-4b22-8960-39d46744c89f")
+		)
+		(pin "1"
+			(uuid "88be439c-6247-4b58-9270-59ce5fbd7cef")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/b406bff0-30cd-4be2-be24-711f4e2b37e9"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 119.38 0)
 		(unit 1)
@@ -3877,6 +4041,120 @@
 			(project "8_bit_computer"
 				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/b406bff0-30cd-4be2-be24-711f4e2b37e9"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f879cc-bd13-4d11-9873-e98b45e1a2dd")
+		(property "Reference" "R36"
+			(at 219.71 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 222.25 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 224.028 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey PN" "13-MFR-25FRF52-10KCT-ND "
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MFR-25FRF52-10K"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-10K/14626"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.10"
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6421957-a539-4f60-80cb-6782a1d6d764")
+		)
+		(pin "1"
+			(uuid "03d3faa1-987c-4b8e-b30e-93beacce1f0b")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/b406bff0-30cd-4be2-be24-711f4e2b37e9"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4529,6 +4807,120 @@
 			(project "8_bit_computer"
 				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/b406bff0-30cd-4be2-be24-711f4e2b37e9"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bf6da91-f200-4b55-811e-efd5ed0fa4fe")
+		(property "Reference" "R35"
+			(at 140.97 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 143.51 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 145.288 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/lr/yageo-mfr_datasheet.pdf"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey PN" "13-MFR-25FRF52-10KCT-ND "
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MFR-25FRF52-10K"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/MFR-25FRF52-10K/14626"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.10"
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 143.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cc3e58b-8277-4135-b9fc-de04a22f2e28")
+		)
+		(pin "1"
+			(uuid "6772127c-b38f-4ab4-b4d0-f354baf83c21")
+		)
+		(instances
+			(project "8_bit_computer"
+				(path "/24dbb59b-fc31-4588-b2ee-d18f20639e07/b406bff0-30cd-4be2-be24-711f4e2b37e9"
+					(reference "R35")
 					(unit 1)
 				)
 			)
